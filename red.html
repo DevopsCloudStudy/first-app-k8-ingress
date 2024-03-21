@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>First-app by DocQs !!</title>
+    <style>
+        body {
+            background-color: red;
+            color: white; /* Set text color to white */
+        }
+        button {
+            font-size: 20px;
+            background-color: white;
+            color: red; /* Set button text color to white */
+            border: none; /* Remove button border */
+            padding: 10px 20px; /* Add padding for better appearance */
+            cursor: pointer; /* Change cursor to pointer on hover */
+        }
+    </style>
+</head>
+<body>
+    <h1> Welcome to DocQs to learn more DevOps and Cloud Architect!! !!</h1>
+    <p>Click the button to change the content:</p>
+    <button onclick="changeContent()">Click Me</button>
+    <p id="content"> Here, you Landed on Red Page !!</p>
+    <script>
+        function changeContent() {
+            var contentElement = document.getElementById("content");
+            contentElement.innerHTML = "Content Changed!";
+        }
+    </script>
+</body>
+</html>
+

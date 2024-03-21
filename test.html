@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First-app by DocQs </title>
+    <style>
+        body {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Kubernetes Learning by DocQs, For more https://docqs.in !!</h1>
+    <p>Click the button to change the content:</p>
+    <button onclick="changeContent()">Click Me</button>
+    <p id="content">Hello, You're landed to Test Page !!</p>
+    <script>
+        function changeContent() {
+            var contentElement = document.getElementById("content");
+            contentElement.innerHTML = "Content Changed!";
+        }
+    </script>
+</body>
+</html>
+
