@@ -48,8 +48,11 @@ Push the images to DockerHub in private repositories. Please create a separate r
 
 ### Kubernetes Setup:
 
-1. **Launch Minikube:**
-   - Start Minikube to create a local Kubernetes cluster.
+1. **Minikube:**
+   - Start Minikube to create a local Kubernetes cluster:  minikube start --kubernetes-version=v1.23.2
+   - Stop Minikuber: minikube stop
+   - Delete minikube:  minikube delete
+   - Start minikube with 1 worker 1 master node: minikube start --nodes 2
 
 2. **Create Secrets:**
    - Create secrets to connect private Docker Hub repositories to pull images.
